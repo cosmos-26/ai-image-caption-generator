@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Caption Generator</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌸 AI Image Caption Generator</h1>
+
+        <p class="subtitle">
+            Upload an image and instantly generate Formal, Casual,
+            SEO-friendly captions and Alt Text using AI.
+        </p>
+        <div class="upload-box">
+
+    <input
+        type="file"
+        id="imageInput"
+        accept="image/*"
+        hidden
+    >
+
+    <label for="imageInput" class="custom-upload">
+        📷 Choose Image
+    </label>
+
+    <p id="fileName">
+        No image selected
+    </p>
+    <button id="generateBtn">
+         Generate Captions
+    </button>
+
+</div>
+
+        <div id="result">
+
+            <div class="placeholder">
+                Your generated captions will appear here 🌷
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
