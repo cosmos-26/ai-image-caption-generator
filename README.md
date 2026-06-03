@@ -142,4 +142,4 @@ Tri-color dog running through shallow beach water on a sunny day.
 
 
 
-Built as part of an AI Engineering internship assignment using FastAPI and Google Gemini Vision.
+
